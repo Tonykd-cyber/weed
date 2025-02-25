@@ -1,0 +1,14 @@
+CREATE TABLE `Trava` (
+  `id` int(11) NOT NULL,
+  `informacije` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `Trava`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `Trava`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+COMMIT;
+
+
+
